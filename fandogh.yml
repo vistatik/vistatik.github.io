@@ -1,8 +1,9 @@
 kind: ExternalService
-name: website
+name: vistatiksite
 spec:
   image_pull_policy: Always
   port: 80
+  allow_http: false
   source:
     context: .
     project_type: static_website
