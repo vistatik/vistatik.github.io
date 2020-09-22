@@ -1,0 +1,11 @@
+kind: ExternalService
+name: website
+spec:
+  image_pull_policy: Always
+  port: 80
+  source:
+    context: .
+    project_type: static_website
+  domains:
+     - name: vistatik.com
+     - name: www.vistatik.com
