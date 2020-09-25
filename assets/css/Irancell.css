@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Irancell';
+	src: url(../../assets/fonts/IrancellLight.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Irancell';
+	src: url(../../assets/fonts/IrancellBold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
