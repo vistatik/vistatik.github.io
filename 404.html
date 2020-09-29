@@ -31,11 +31,34 @@
 </head>
 
 <body>
-    <section class="notfound404"><img src="assets/img/404-error.svg">
+    <section class="notfound404">
+        <!-- Start: vistatik-navbar -->
+        <nav class="navbar navbar-light navbar-expand-md fixed-top" id="introsection-nav">
+            <div class="container-fluid"><a class="navbar-brand" id="navbar-logo" href="https://vistatik.com"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="color: rgba(0,0,0,0);"><span class="sr-only">Toggle navigation</span><span id="hamburger"><i class="fas fa-bars"></i></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1" style="color: rgb(255,255,255);">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">تماس با ما</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">درباره ما</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">پروژه ها</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">وبلاگ</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">خدمات</a></li>
+                    </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- End: vistatik-navbar -->
+        <div class="navbar-back-black"></div><img src="assets/img/404-error.svg">
         <div class="notfound-text">
             <h1>404 NotFound !!</h1>
-            <h4>!!خطا صفحه مورد نظر پیدا نشد</h4><a class="btn btn-primary" role="button" href="https://vistatik.com">بازگشت به صفحه اول</a></div>
-    </section>
+            <h4>!!خطا صفحه مورد نظر پیدا نشد</h4><a class="btn btn-primary" role="button" href="https://vistatik.com">بازگشت به صفحه اول</a></div><script>
+function changeNavbar(){
+    const navbar = document.getElementById("introsection-nav");
+     navbar.style.backgroundColor = "#1e1e1e"
+}
+
+changeNavbar();
+</script></section>
     <!-- Start: vistatik-footer -->
     <footer id="footer">
         <div class="container footer-container">

@@ -52,6 +52,23 @@
             <h1 data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">کسب وکار خودرا گسترش دهید</h1>
             <h4 data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">و مشتریان بیشتری جذب کنید</h4>
         </div>
+        <!-- Start: scroll-effect --><script>
+function changeNavbar(){
+    const navbar = document.getElementById("introsection-nav");
+    
+    window.addEventListener('scroll', function () {
+        
+        const navbarlogo = document.getElementById("navbar-logo");
+
+        let windowPosition = window.scrollY > 0;
+        navbar.classList.toggle('scrolling-active', windowPosition);
+        
+    });
+}
+
+changeNavbar();
+</script>
+        <!-- End: scroll-effect -->
         </div>
         <div id="introsection-down">
             <div class="container">
